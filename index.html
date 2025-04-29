@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Conquête de l'Espace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero" role="banner">
+        <h1>Conquête de l'Espace</h1>
+        <p>USA vs URSS - Une bataille vers les étoiles</p>
+    </header>
+
+    <nav role="navigation" aria-label="Menu principal">
+        <ul>
+            <li><a href="#timeline">Histoire</a></li>
+            <li><a href="#missions">Missions</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+        </ul>
+    </nav>
+
+    <main role="main">
+        <section id="timeline" aria-labelledby="titre-timeline">
+            <h2 id="titre-timeline">Frise de la Course</h2>
+            <div class="timeline">
+                <div class="event" role="group" aria-label="Événement 1957 - Spoutnik">
+                    <h3>1957 - Spoutnik 1</h3>
+                    <p>Premier satellite artificiel lancé par l'URSS.</p>
+                </div>
+                <div class="event" role="group" aria-label="Événement 1961 - Youri Gagarine">
+                    <h3>1961 - Youri Gagarine</h3>
+                    <p>Premier homme dans l'espace à bord de Vostok 1.</p>
+                </div>
+                <div class="event" role="group" aria-label="Événement 1969 - Apollo 11">
+                    <h3>1969 - Apollo 11</h3>
+                    <p>Neil Armstrong marche sur la Lune pour les USA.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="missions" aria-labelledby="titre-missions">
+            <h2 id="titre-missions">Missions Clés</h2>
+            <div class="cards">
+                <div class="card" role="article" aria-label="Mission Apollo 11">
+                    <h3>Apollo 11</h3>
+                    <p>Premier pas de l'homme sur la Lune (1969).</p>
+                </div>
+                <div class="card" role="article" aria-label="Mission Soyouz">
+                    <h3>Soyouz</h3>
+                    <p>Programme spatial soviétique toujours actif.</p>
+                </div>
+                <div class="card" role="article" aria-label="Mission Spoutnik">
+                    <h3>Spoutnik</h3>
+                    <p>Début officiel de la conquête spatiale (1957).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" aria-labelledby="titre-impact">
+            <h2 id="titre-impact">Pourquoi c'est important ?</h2>
+            <p>La course à l’espace a révolutionné la technologie : satellites, GPS, télécommunications et même les soins médicaux !</p>
+        </section>
+
+        <section id="galerie" aria-labelledby="titre-galerie">
+            <h2 id="titre-galerie">Galerie Spatiale</h2>
+            <div class="gallery">
+                <img src="https://cdn.mos.cms.futurecdn.net/Cfqy5xkF4iDz2MUXE9iecY-970-80.jpg" alt="Spoutnik 1 - 1957">
+                <img src="https://www.cieletespace.fr/media/default/0001/20/YOURI_NB_900-606f.jpeg" alt="Youri Gagarine - 1961">
+                <img src="https://orf.at/vstories/mondlandung/mondlandung_foto_fahne100~_v-body__16__9_-8356d68febb302a69d0d38655ca9b89002ae9eee.jpg" alt="Apollo 11 - 1969">
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>QUI REMPORTE LA COURSE?</p>
+    </footer>
+</body>
+</html>
